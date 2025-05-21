@@ -7,6 +7,17 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.environ.get("GOOGLE_API_KEY")
 
+<<<<<<< HEAD
+=======
+import os
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.environ.get("GOOGLE_API_KEY")
+
+>>>>>>> ec2525d (Use environment variable for Google API key)
 
 # Define your category search terms (simplified and matched manually)
 categories = [
