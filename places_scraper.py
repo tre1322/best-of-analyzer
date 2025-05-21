@@ -1,8 +1,12 @@
 import requests
 import csv
 import time
+import os
+from dotenv import load_dotenv
 
-API_KEY = "AIzaSyCHUt1N4VMu1mOJNzGcOjWhp7YzdJ7l3Xg"
+load_dotenv()
+API_KEY = os.environ.get("GOOGLE_API_KEY")
+
 
 # Define your category search terms (simplified and matched manually)
 categories = [
